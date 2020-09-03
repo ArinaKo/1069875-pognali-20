@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Арина Коваленко](https://up.htmlacademy.ru/adaptive/20/user/1069875).
-* Наставник: `Неизвестно`.
+* Наставник: [Без наставника].
 
 ---
 
