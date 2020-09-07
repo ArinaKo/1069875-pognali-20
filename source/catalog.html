@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Попутчики</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="page-header__logo" href="#">
+      <img src="" alt="Логотип сайта">
+      <span>Погнали?</span>
+    </a>
+    <nav class="page-header__menu main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Mеню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="index.html">О сервисе</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="form.html">Направления</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--current">Попутчики</a>
+          </li>
+        </ul>
+        <button class="main-nav__button button" type="button">Авторизация</button>
+        <div class="main-nav__contacts contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <span class="contacts__text">8 800 555-86-28</span>
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__text">mail@htmlacademy.ru</span>
+            </li>
+          </ul>
+        </div>
+        <div class="main-nav__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="">Facebook</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="">Вконтакте</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="">Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="page-intro">
+      <h1 class="page-intro__headline">Попутчики</h1>
+      <a class="page-intro__link" href="index.html">На главную</a>
+    </div>
+    <section class="filter">
+      <button class="filter__open" type="button">
+        <span class="">Показать все</span>
+      </button>
+      <h2 class="filter__headline">
+        Фильтрация по странам
+        <span class="filter__headline-colon">:</span>
+      </h2>
+      <div class="filter__wrapper js-popup">
+        <button class="filter__close js-popup__close">
+          <span class="">Свернуть</span>
+        </button>
+
+        <button class="filter__close button js-popup__close">Свернуть</button>
+      </div>
+    </section>
+    <section class="catalog">
+      <ul class="catalog__list">
+        <li class="catalog__item user">
+          <a class="user__link" href="#">
+            <h3 class="user__name">Таня Фирсова</h3>
+          </a>
+          <span class="user__likes">1,5 М</span>
+          <a class="user__link" href="#">
+            <img class="user__avatar" src="" width="" height="" alt="Фотография пользователя">
+          </a>
+          <h4 class="visually-hidden">Интересы</h4>
+          <p class="user__hashtags">
+            #ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
+          </p>
+          <h4 class="user__section-name">хочет посетить:</h4>
+          <ul class="user__countries">
+            <li class="user__country">
+              <span class="">Шри-ланка</span>
+            </li>
+            <li class="user__country">
+              <span class="">Тайланд</span>
+            </li>
+            <li class="user__country">
+              <span class="">Сейшелы</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">транспорт:</h4>
+          <ul class="user__form-of-travel">
+            <li class="user__icon">
+              <span class="">Самолет</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Автобус</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Велосипед</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Пешком</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">левел:</h4>
+          <div class="user__level progress">
+            <span class="progress__number">99</span>
+          </div>
+          <a class="user__button button" href="#">Позвать!</a>
+        </li>
+        <li class="catalog__item user">
+          <a class="user__link" href="#">
+            <h3 class="user__name">Петя Демин</h3>
+          </a>
+          <span class="user__likes">1500</span>
+          <a class="user__link" href="#">
+            <img class="user__avatar" src="" width="" height="" alt="Фотография пользователя">
+          </a>
+          <h4 class="visually-hidden">Интересы</h4>
+          <p class="user__hashtags">
+            #бургер #бар #футбол
+            #концерт #крафт
+          </p>
+          <h4 class="user__section-name">хочет посетить:</h4>
+          <ul class="user__countries">
+            <li class="user__country">
+              <span class="">Бельгия</span>
+            </li>
+            <li class="user__country">
+              <span class="">Греция</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">транспорт:</h4>
+          <ul class="user__form-of-travel">
+            <li class="user__icon">
+              <span class="">Самолет</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Автобус</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Велосипед</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Пешком</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">левел:</h4>
+          <div class="user__level progress">
+            <span class="progress__number">80</span>
+          </div>
+          <a class="user__button button" href="#">Позвать!</a>
+        </li>
+        <li class="catalog__item user">
+          <a class="user__link" href="#">
+            <h3 class="user__name">Марк Смолов</h3>
+          </a>
+          <span class="user__likes">170</span>
+          <a class="user__link" href="#">
+            <img class="user__avatar" src="" width="" height="" alt="Фотография пользователя">
+          </a>
+          <h4 class="visually-hidden">Интересы</h4>
+          <p class="user__hashtags">
+            #рэп #тату #хайпбист #кроссовки #суприм
+          </p>
+          <h4 class="user__section-name">хочет посетить:</h4>
+          <ul class="user__countries">
+            <li class="user__country">
+              <span class="">США</span>
+            </li>
+            <li class="user__country">
+              <span class="">Австралия</span>
+            </li>
+            <li class="user__country">
+              <span class="">Доминика</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">транспорт:</h4>
+          <ul class="user__form-of-travel">
+            <li class="user__icon">
+              <span class="">Самолет</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Автобус</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Велосипед</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Пешком</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">левел:</h4>
+          <div class="user__level progress">
+            <span class="progress__number">25</span>
+          </div>
+          <a class="user__button button" href="#">Позвать!</a>
+        </li>
+        <li class="catalog__item user">
+          <a class="user__link" href="#">
+            <h3 class="user__name">Лариса Роговая</h3>
+          </a>
+          <span class="user__likes">23</span>
+          <a class="user__link" href="#">
+            <img class="user__avatar" src="" width="" height="" alt="Фотография пользователя">
+          </a>
+          <h4 class="visually-hidden">Интересы</h4>
+          <p class="user__hashtags">
+            #образование #карьера #учеба #линкедин
+          </p>
+          <h4 class="user__section-name">хочет посетить:</h4>
+          <ul class="user__countries">
+            <li class="user__country">
+              <span class="">Великобритания</span>
+            </li>
+            <li class="user__country">
+              <span class="">Германия</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">транспорт:</h4>
+          <ul class="user__form-of-travel">
+            <li class="user__icon">
+              <span class="">Самолет</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Автобус</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Велосипед</span>
+            </li>
+            <li class="user__icon">
+              <span class="">Пешком</span>
+            </li>
+          </ul>
+          <h4 class="user__section-name">левел:</h4>
+          <div class="user__level progress">
+            <span class="progress__number">50</span>
+          </div>
+          <a class="user__button button" href="#">Позвать!</a>
+        </li>
+      </ul>
+      <a class="catalog__show-all" href="#">Показать еще</a>
+      <div class="catalog__buttons">
+        <a class="catalog__button button" href="#">
+          <span class="">Показать предыдущую страницу</span>
+        </a>
+        <a class="catalog__button button" href="#">
+          <span class="">Показать следующую страницу</span>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <a class="page-footer__logo" href="index.html">
+      <img src="" alt="Логотип сайта">
+      <span>Погнали?</span>
+    </a>
+    <div class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <span class="">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <span class="">Вконтакте</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <span class="">Instagram</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__copyright">
+      <span>Разработано</span>
+      <a href="https://htmlacademy.ru/intensive/adaptive">
+        <span class="">HTMLAcademy</span>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

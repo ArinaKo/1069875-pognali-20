@@ -8,7 +8,7 @@
 
 <body>
   <header class="page-header">
-    <a class="page-header__logo" href="#">
+    <a class="page-header__logo">
       <img src="" alt="Логотип сайта">
       <span>Погнали?</span>
     </a>
@@ -19,13 +19,13 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a class="site-list__link" href="#">О сервисе</a>
+            <a class="site-list__link site-list__link--current">О сервисе</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="#">Направления</a>
+            <a class="site-list__link" href="form.html">Направления</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="#">Попутчики</a>
+            <a class="site-list__link" href="catalog.html">Попутчики</a>
           </li>
         </ul>
         <button class="main-nav__button button" type="button">Авторизация</button>
@@ -61,7 +61,7 @@
       </div>
     </nav>
   </header>
-  <main class="page-main">
+  <main>
     <h1 class="visually-hidden">Погнали?</h1>
     <section class="intro">
       <h2 class="visually-hidden">Введение</h2>
@@ -142,26 +142,30 @@
       </ul>
       <a class="countries__button button" href="#">Показать все</a>
     </section>
-    <section class="users">
-      <h2 class="users__headline">Попутчики</h2>
-      <p class="users__text">
+    <section class="travelers">
+      <h2 class="travelers__headline">Попутчики</h2>
+      <p class="travelers__text">
         Все мы индивидуальны и
         у каждого свой взгляд на идеальный отдых.
         Одному нужен пляж и коктейль,
         а другому маршрут для хайкинга.
       </p>
-      <p class="users__text users__text--bold">
+      <p class="travelers__text travelers__text--bold">
         Теперь можно легко найти
         единомышленников!
       </p>
-      <ul class="users__list">
-        <li class="users__item user">
-          <div class="user__info">
-            <h3 class="user__name">Таня Фирсова</h3>
+      <ul class="travelers__list">
+        <li class="travelers__item">
+          <div class="user">
+            <a class="user__link" href="#">
+              <h3 class="user__name">Таня Фирсова</h3>
+            </a>
+            <h4 class="visually-hidden">Интересы</h4>
             <p class="user__hashtags">
               #ЗОЖ #ПП #Фитнес #пляж
               #авокадо #смузи
             </p>
+            <h4 class="visually-hidden">Хочет посетить</h4>
             <ul class="user__countries">
               <li class="user__country">
                 <span class="">Шри-Ланка</span>
@@ -173,6 +177,7 @@
                 <span class="">Сейшелы</span>
               </li>
             </ul>
+            <h4 class="visually-hidden">Транспорт</h4>
             <ul class="user__form-of-travel">
               <li class="user__icon">
                 <span class="">Самолет</span>
@@ -187,15 +192,18 @@
                 <span class="">Пешком</span>
               </li>
             </ul>
+            <h4 class="visually-hidden">Уровень</h4>
             <div class="user__level progress">
               <span class="progress__number">99</span>
               <span class="progress__desc">level</span>
             </div>
           </div>
         </li>
-        <li class="users__item user">
-          <div class="user__info">
-            <h3 class="user__name">Петя Демин</h3>
+        <li class="travelers__item">
+          <div class="user">
+            <a class="user__link" href="#">
+              <h3 class="user__name">Петя Демин</h3>
+            </a>
             <p class="user__hashtags">
               #бургер #бар #футбол
               #концерт #крафт
@@ -229,7 +237,7 @@
           </div>
         </li>
       </ul>
-      <a class="users__button button" href="#">Показать всех</a>
+      <a class="travelers__button button" href="#">Показать всех</a>
     </section>
     <section class="profile">
       <h2 class="profile__headline profile__headline--with-icon">Добавьте свой профиль</h2>
@@ -248,7 +256,7 @@
         </li>
       </ol>
       <button class="profile__button" type="button">Показать тарифы для бизнеса</button>
-      <div class="profile__popup popup">
+      <div class="profile__popup js-popup">
         <h2 class="profile__headline">Бизнес-тарифы</h2>
         <ul class="profile__rates rates">
           <li class="rates__item">
@@ -268,7 +276,7 @@
             <span class="rates__price">Индивидуально</span>
           </li>
         </ul>
-        <button class="profile__button popup__button" type="button">Закрыть окно</button>
+        <button class="profile__button js-popup__button" type="button">Закрыть окно</button>
       </div>
     </section>
     <section class="checkin">
@@ -315,7 +323,7 @@
     </section>
   </main>
   <footer class="page-footer">
-    <a class="page-footer__logo" href="#">
+    <a class="page-footer__logo">
       <img src="" alt="Логотип сайта">
       <span>Погнали?</span>
     </a>
