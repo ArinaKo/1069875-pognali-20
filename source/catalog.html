@@ -85,7 +85,7 @@
           <h3 class="visually-hidden">Континенты и острова</h3>
           <ul class="aries-filter__list">
             <li class="aries-filter__item">
-              <button class="aries-filter__button" type="button">Европа</button>
+              <button class="aries-filter__button aries-filter__button--active" type="button">Европа</button>
             </li>
             <li class="aries-filter__item">
               <button class="aries-filter__button" type="button">Азия</button>
@@ -101,7 +101,7 @@
             <h3 class="visually-hidden">Фильтрация по алфавиту</h3>
             <ul class="countries-filter__alphabet alphabet">
               <li class="alphabet__item">
-                <button class="alphabet__button" type="button" name="letter-1">А</button>
+                <button class="alphabet__button alphabet__button--active" type="button" name="letter-1">А</button>
               </li>
               <li class="alphabet__item">
                 <button class="alphabet__button" type="button" name="letter-2">Б</button>
@@ -900,9 +900,9 @@
           <div class="users-filter__wrapper">
             <div class="users-filter__level-field">
               <label class="visually-hidden" for="min-level">Минимальный уровень</label>
-              <input class="" type="number" id="min-level" name="min-level" min="0" max="100" value="30" disabled>
+              <input class="users-filter__input" type="number" id="min-level" name="min-level" min="0" max="100" value="30" disabled>
               <label class="visually-hidden" for="max-level">Максимальный уровень</label>
-              <input class="" type="number" id="max-level" name="max-level" min="0" max="100" value="100" disabled>
+              <input class="users-filter__input" type="number" id="max-level" name="max-level" min="0" max="100" value="100" disabled>
             </div>
             <div class="users-filter__range range">
               <div class="range__scale">
